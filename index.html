@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+body {
+	margin: 0;
+}
+div.parallax {
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+div.parallax#l0 {
+
+}
+div {
+	font-size: 4em;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+</style>
+</head>
+<body>
+<div id="l2" class="parallax" style="background-image: url('3200/2-1.jpg');"></div>
+<div id="l1" class="parallax" style="background-image: url('3200/1-1.jpg');"></div>
+<div id="l0" class="parallax" style="background-image: url('3200/0-1.jpg');"></div>
+<div id="g1" class="parallax" style="background-image: url('3200/G1-1.jpg');"></div>
+<div id="g2" class="parallax" style="background-image: url('3200/G2-1.jpg');"></div>
+</body>
+
+<script type="text/javascript">
+/*
+	// the callback function that will be fired
+	// when the element apears in the viewport
+	function onEntry(entry) {
+		entry.forEach((change) => {
+			console.log(change);
+			change.target.style.backgroundImage = change.intersectionRatio > 0.5? 'url("even.png")': 'url("odd.png")';
+		});
+	}
+
+	// list of options
+	let options = {
+		threshold: [0.0, 1.0]
+	};
+
+	// instantiate a new Intersection Observer
+	let observer = new IntersectionObserver(onEntry, options);
+
+	// list of paragraphs
+	let elements = document.querySelectorAll('div');
+
+	// loop through all elements
+	// pass each element to observe method
+	// ES2015 for-of loop can traverse through DOM Elements
+	for(let elm of elements) {
+		observer.observe(elm);
+	}
+*/
+</script>
+</html>
