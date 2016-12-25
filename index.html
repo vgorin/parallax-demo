@@ -12,23 +12,68 @@ div.parallax {
 	background-repeat: no-repeat;
 	height: 100vh;
 }
-div.parallax#l0 {
 
-}
 div {
 	font-size: 4em;
 	text-align: center;
 	vertical-align: middle;
 	color: white;
 }
+
+#l0, #l1, #l2 {background-color: white;}
+
+#g1, #g2 {background-color: darkgray;}
+
+@media all and (max-width: 1920px) and (max-height: 1920px) {
+	#l2 {background-image: url("1920/castle_in_the_sky.jpg");}
+	#l1 {background-image: url("1920/dirigible.jpg");}
+	#l0 {background-image: url("1920/mother_tree.jpg");}
+	#g1 {background-image: url("1920/coal_mines.jpg");}
+	#g2 {background-image: url("1920/antharas.jpg");}
+}
+@media all and (max-width: 1440px) and (max-height: 1440px) {
+	#l2 {background-image: url("1440/castle_in_the_sky.jpg");}
+	#l1 {background-image: url("1440/dirigible.jpg");}
+	#l0 {background-image: url("1440/mother_tree.jpg");}
+	#g1 {background-image: url("1440/coal_mines.jpg");}
+	#g2 {background-image: url("1440/antharas.jpg");}
+}
+@media all and (max-width: 1280px) and (max-height: 1280px) {
+	#l2 {background-image: url("1280/castle_in_the_sky.jpg");}
+	#l1 {background-image: url("1280/dirigible.jpg");}
+	#l0 {background-image: url("1280/mother_tree.jpg");}
+	#g1 {background-image: url("1280/coal_mines.jpg");}
+	#g2 {background-image: url("1280/antharas.jpg");}
+}
+@media all and (max-width: 1024px) and (max-height: 1024px) {
+	#l2 {background-image: url("1024/castle_in_the_sky.jpg");}
+	#l1 {background-image: url("1024/dirigible.jpg");}
+	#l0 {background-image: url("1024/mother_tree.jpg");}
+	#g1 {background-image: url("1024/coal_mines.jpg");}
+	#g2 {background-image: url("1024/antharas.jpg");}
+}
+@media all and (max-width: 800px) and (max-height: 800px) {
+	#l2 {background-image: url("800/castle_in_the_sky.jpg");}
+	#l1 {background-image: url("800/dirigible.jpg");}
+	#l0 {background-image: url("800/mother_tree.jpg");}
+	#g1 {background-image: url("800/coal_mines.jpg");}
+	#g2 {background-image: url("800/antharas.jpg");}
+}
+@media all and (max-width: 640px) and (max-height: 640px) {
+	#l2 {background-image: url("640/castle_in_the_sky.jpg");}
+	#l1 {background-image: url("640/dirigible.jpg");}
+	#l0 {background-image: url("640/mother_tree.jpg");}
+	#g1 {background-image: url("640/coal_mines.jpg");}
+	#g2 {background-image: url("640/antharas.jpg");}
+}
 </style>
 </head>
 <body>
-<div id="l2" class="parallax" style="background-image: url('3200/2-1.jpg');"></div>
-<div id="l1" class="parallax" style="background-image: url('3200/1-1.jpg');"></div>
-<div id="l0" class="parallax" style="background-image: url('3200/0-1.jpg');"></div>
-<div id="g1" class="parallax" style="background-image: url('3200/G1-1.jpg');"></div>
-<div id="g2" class="parallax" style="background-image: url('3200/G2-1.jpg');"></div>
+<div id="l2" class="parallax"></div>
+<div id="l1" class="parallax"></div>
+<div id="l0" class="parallax"></div>
+<div id="g1" class="parallax"></div>
+<div id="g2" class="parallax"></div>
 </body>
 
 <script type="text/javascript">
